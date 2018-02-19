@@ -3,6 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="deleteme.Views.LoginPage"
+    BindingContext="{Binding Main, Source={StaticResource Locator}}"
     Title="Login">
 	<ContentPage.Content>
         <ScrollView>
@@ -48,21 +49,26 @@
                         Placeholder="Enter your password..."
                     ></Entry>
                 </Grid>
-
+                <ActivityIndicator></ActivityIndicator>
                 <!-- remember --> 
                 <StackLayout 
                     Orientation="Horizontal">
                     <Label
-                        Text="Rememberme in this device"
+                        Text="Rememberme on this device"
                         VerticalOptions="Center"
                         HorizontalOptions="StartAndExpand"></Label>
                     <Switch
                         HorizontalOptions="End"></Switch>
                 </StackLayout>
 
-                <ActivityIndicator></ActivityIndicator>
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Forgot your password?"
+                    TextColor="Blue"
+                    VerticalOptions="CenterAndExpand"></Label>
                 <StackLayout
                     Margin="40,0">
+
                      <Button
                         BorderRadius="23"
                         HeightRequest="46"
