@@ -10,7 +10,7 @@ namespace deleteme
         {
             InitializeComponent();
 
-            this.MainPage = new NavigationPage(new LoginPage());
+            this.MainPage = new NavigationPage(new NavigationPage(new LoginPage()));
         }
         #endregion
 
