@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{6EBACB4A-175B-4708-A36C-135B582C4CAA}|Default">
+  <MonoDevelop.Ide.ItemProperties.deleteme.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="deleteme/ViewModels/LoginViewModel.cs">
+    <Files>
+      <File FileName="deleteme/App.xaml" Line="14" Column="1" />
+      <File FileName="deleteme/Views/LoginPage.xaml" Line="119" Column="1" />
+      <File FileName="deleteme/ViewModels/LoginViewModel.cs" Line="7" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.deleteme.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A43AC478-4AB9-4A45-BA44-F4092F7F272D" />
+  <MultiItemStartupConfigurations />
+</Properties>
