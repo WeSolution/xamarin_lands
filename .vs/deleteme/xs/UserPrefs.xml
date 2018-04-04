@@ -1,10 +1,14 @@
-﻿<Properties StartupConfiguration="{6EBACB4A-175B-4708-A36C-135B582C4CAA}|Default">
+﻿<Properties StartupConfiguration="{31FDD0D0-3277-4359-A75B-6CD53BABC5F6}|Default">
   <MonoDevelop.Ide.ItemProperties.deleteme.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="deleteme/ViewModels/LoginViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/msbuild/iOS/Xamarin.iOS.Common.targets">
     <Files>
-      <File FileName="deleteme/App.xaml" Line="14" Column="1" />
-      <File FileName="deleteme/Views/LoginPage.xaml" Line="119" Column="1" />
-      <File FileName="deleteme/ViewModels/LoginViewModel.cs" Line="7" Column="29" />
+      <File FileName="deleteme/ViewModels/MainViewModel.cs" Line="20" Column="10" />
+      <File FileName="deleteme/Views/LandsPage.xaml" Line="18" Column="1" />
+      <File FileName="deleteme/Views/LandsPage.xaml.cs" Line="6" Column="6" />
+      <File FileName="deleteme/ViewModels/LandsViewModel.cs" Line="7" Column="9" />
+      <File FileName="deleteme/Views/LoginPage.xaml" Line="121" Column="1" />
+      <File FileName="deleteme/ViewModels/LoginViewModel.cs" Line="29" Column="35" />
+      <File FileName="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="638" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,6 +16,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.deleteme.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A43AC478-4AB9-4A45-BA44-F4092F7F272D" />
+  <MonoDevelop.Ide.ItemProperties.deleteme.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.89127A88-0B2C-493C-A2EA-D18D0FC2E6A3" />
   <MultiItemStartupConfigurations />
 </Properties>
