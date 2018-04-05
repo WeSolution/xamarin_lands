@@ -1,10 +1,11 @@
 ﻿namespace deleteme.ViewModels
 {
+    using System.Windows.Input;
     using deleteme.Views;
     // Nugget package mvvm light libs icono de una plumita
     using GalaSoft.MvvmLight.Command;
-    using System.Windows.Input;
     using Xamarin.Forms;
+
 
     public class LoginViewModel : BaseViewModel
     {
@@ -109,7 +110,7 @@
                     , "Your email and password are incorrect"
                     , "Acept"
                 );
-                this.password = string.Empty;
+                this.Password = string.Empty;
                 return;
             }
 
@@ -117,7 +118,7 @@
             this.IsEnabled = true;
 
             this.Email = string.Empty;
-            this.password = string.Empty;
+            this.Password = string.Empty;
 
             // Para hacer la navegación se necesita primero instanciar el view
             // model de la siguiente page, posterior se debe apilar el page view

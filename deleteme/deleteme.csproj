@@ -54,10 +54,10 @@
     <Compile Include="Infrastructure\InstanceLocator.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\LandsViewModel.cs" />
     <Compile Include="Views\LandsPage.xaml.cs">
       <DependentUpon>LandsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\LandsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
